@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AdapterPattern.AdapterOfObject
+namespace AdapterPattern.Interface
 {
     /// <summary>
     /// simple audio player interface

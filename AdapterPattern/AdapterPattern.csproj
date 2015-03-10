@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdapterOfObject\IAudioPlayer.cs" />
+    <Compile Include="AdapterOfClass\SoundPlayerAnotherAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Interface\IAudioPlayer.cs" />
     <Compile Include="AdapterOfObject\SoundPlayerAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
