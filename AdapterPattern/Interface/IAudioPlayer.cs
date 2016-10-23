@@ -6,12 +6,12 @@ using System.Text;
 namespace AdapterPattern.Interface
 {
     /// <summary>
-    /// simple audio player interface
+    /// Simple audio player interface
     /// </summary>
     public interface IAudioPlayer
     {
         /// <summary>
-        /// Load the audio file.
+        /// Load the audio file
         /// </summary>
         void Load(string file);
 
