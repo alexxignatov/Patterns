@@ -11,7 +11,7 @@ namespace AdapterPattern.Interface
     public interface IAudioPlayer
     {
         /// <summary>
-        /// Load the audio file.
+        /// Load the audio file
         /// </summary>
         void Load(string file);
 
