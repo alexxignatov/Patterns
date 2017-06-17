@@ -15,15 +15,15 @@ namespace AdapterPattern.AdapterOfObject
         /// <summary>
         /// Adaptee object
         /// </summary>
-        private readonly Lazy<SoundPlayer> lazyPlayer = new Lazy<SoundPlayer>();
+        private readonly Lazy<SoundPlayer> _lazyPlayer = new Lazy<SoundPlayer>();
 
         /// <summary>
         /// Load the audio file.
         /// </summary>
         public void Load(string file)
         {
-            lazyPlayer.Value.SoundLocation = file;
-            lazyPlayer.Value.Load();
+            _lazyPlayer.Value.SoundLocation = file;
+            _lazyPlayer.Value.Load();
         }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace AdapterPattern.AdapterOfObject
         /// </summary>
         public void Play()
         {
-            lazyPlayer.Value.Play();
+            _lazyPlayer.Value.Play();
         }
     }
 }
